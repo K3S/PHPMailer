@@ -75,10 +75,8 @@ if (!in_array($providerName, ['Google', 'Microsoft', 'Yahoo'])) {
 
 //These details are obtained by setting up an app in the Google developer console,
 //or whichever provider you're using.
-//$clientId = 'RANDOMCHARS-----duv1n2.apps.googleusercontent.com';
-//$clientSecret = 'RANDOMCHARS-----lGyjPcRtvP';
-$clientId         = '442902372226-b93b36rm076u96nkf5vjahs2e7csu16q.apps.googleusercontent.com';
-$clientSecret     = 'YBJDUXMkji1eeXLcZk0UfTaF';
+$clientId = 'RANDOMCHARS-----duv1n2.apps.googleusercontent.com';
+$clientSecret = 'RANDOMCHARS-----lGyjPcRtvP';
 //If this automatic URL doesn't work, set it yourself manually to the URL of this script
 $redirectUri = (isset($_SERVER['HTTPS']) ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'];
 //$redirectUri = 'http://localhost/PHPMailer/redirect';
